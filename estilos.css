@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+p, a, li, h1,h2, h3{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* ESTA ES LA CABECERA*/
+.cabecera{
+	overflow: hidden;
+	background: #292828;
+}
+.cabecera img{
+	display: block;
+	margin: auto;
+}
+
+.cabecera h1{
+	text-align: center;
+	font-size: 28px;
+	color: #F69F2C;
+}
+
+.cabecera h3{
+	font-size: 25px;
+	text-align: center;
+	color:dodgerblue;
+}
+
+
+/* AQUI COMIENZA EL MENU*/
+
+.menu{
+	background: #292828;
+	overflow: hidden;
+}
+
+.menu ul li{
+	list-style: none;
+	display: inline;
+}
+
+.menu ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 5px;
+}
+.menu ul li a:hover{
+	color: #F69F2C;
+}
+
+/*efecto a las imagenes*/
+img{
+	left:25px;
+}
+
+img{
+    transition:all 0.5s ease;
+}
+
+img:hover{
+    transform: scale(0.9);
+    border-radius: 20%;
+}
+
+img.separador{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+img.separador{
+    width: 13%; 
+    height: 110px;
+    float: right;
+}
+
+/*efecto 2"pagina auto"*/     
+    .grid{
+      padding-top: 30px;
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
+      grid-gap: 10px;
+    }
+    .grid img{
+        width:100%;
+        margin: auto;
+        border: 3px solid white;
+        transition: all 0.5s ease;
+    }
+    .grid img:hover{
+        transform: scale(0.9);    
+    }
+
+/* AQUI COMIENZA EL CUERPO */
+
+.slider{
+	width: 80%;
+}
+.cuerpo img{
+    display: block;
+	margin: auto;
+ }
+ .cuerpo{
+ 	background: #292828
+ }
+
+
+.iconos{
+	overflow: hidden;
+	margin:20px 0px ;
+	background: #292828
+}
+.iconos h3{
+	text-align: center;
+	color: #f9f9f8;
+	font-size: 26px;
+}
+.iconos div{
+	width: 24%;
+	float: left;
+	overflow: hidden;
+}
+
+.iconos div img{
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+.iconos div p{
+	text-align: center;
+	color: #f9f9f8;
+}
+
+.bienvenida{	
+	background: #292828;
+	padding: 20px;
+		
+}
+.bienvenida p{
+	text-align: center;	
+	color: #ffffff;
+	margin: 20px 30px ;
+}
+
+
+.parallax{
+	width: 100%;
+	height: 150px;
+	background: url(imagenes/fondo1.jpg);
+	background-size: 200%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;	
+	overflow: hidden;
+}
+.parallax a{
+	display: block;
+	padding: 10px;
+	width: 150px;
+	text-align: center;
+	text-decoration: none;
+	background: #000000;
+	color: #ffffff;
+	margin: 50px auto 50px auto;
+	transition: 1s;
+}
+.parallax a:hover{
+	background: orange;
+	color: #000000;
+}
+
+.publicidad{
+	overflow: hidden;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.publicidad img{
+	width: 90%;
+}
+
+/* PAGINA (servicios) */
+
+#main-container{
+	margin: 150px auto;
+	width: 600px;
+	font-family: Arial;
+}
+table{
+	background-color: white;
+	text-align: left;
+	
+	border-collapse: collapse;
+	width: 100%;
+}
+th,td{
+	
+	padding: 20px;
+}
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+	
+}
+tr:nth-child(even){
+	background-color: #ddd;
+}
+tr:hover td{
+	background-color: #369681;
+	color: white;
+}
+
+
+/* PIE DE PAGINA */
+.piedepagina{
+	background: #333; 
+	color: #ffffff;
+	text-align: center;
+	padding: 5px;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
